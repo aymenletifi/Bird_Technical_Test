@@ -1,0 +1,368 @@
+{
+	"_type": "export",
+	"__export_format": 4,
+	"__export_date": "2021-04-01T13:12:21.785Z",
+	"__export_source": "insomnia.desktop.app:v2021.1.1",
+	"resources": [
+		{
+			"_id": "req_27bff6ceef2941c280a9a03e5a2c9453",
+			"parentId": "fld_99f6354c16774b79bb43ee6c77ef9107",
+			"modified": 1617260131510,
+			"created": 1617260015192,
+			"url": "http://localhost:3001/warmup-task",
+			"name": "Example 1",
+			"description": "Should return 1, as the multiplication equals 30.",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "[1, -2, -3, 5]"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_f9943b90f8a04a369920be45d0eff2eb"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1617260015192,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_99f6354c16774b79bb43ee6c77ef9107",
+			"parentId": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"modified": 1617260002167,
+			"created": 1617260002167,
+			"name": "Warmup Task",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1617260002167,
+			"_type": "request_group"
+		},
+		{
+			"_id": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"parentId": null,
+			"modified": 1617259979737,
+			"created": 1617259979737,
+			"name": "node-code-challenge",
+			"description": "",
+			"scope": "collection",
+			"_type": "workspace"
+		},
+		{
+			"_id": "req_2ec1dd1435ca4241b816ab4871bbf83f",
+			"parentId": "fld_99f6354c16774b79bb43ee6c77ef9107",
+			"modified": 1617261492180,
+			"created": 1617261401311,
+			"url": "http://localhost:3001/warmup-task",
+			"name": "Example 2",
+			"description": "Should return -1, as the multiplication equals -30.",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "[1, 2, 3, -5]"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_f9943b90f8a04a369920be45d0eff2eb"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1617013328338.5,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_48e16612c36d473dbc2fb8bd5fe02163",
+			"parentId": "fld_99f6354c16774b79bb43ee6c77ef9107",
+			"modified": 1617261479438,
+			"created": 1617261445237,
+			"url": "http://localhost:3001/warmup-task",
+			"name": "Example 3",
+			"description": "Should return 0, as the multiplication equals 0.",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "[1, 2, 0, -5]"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_f9943b90f8a04a369920be45d0eff2eb"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1616889984911.75,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ff3d677cbb284462a10131e883137e6d",
+			"parentId": "fld_99f6354c16774b79bb43ee6c77ef9107",
+			"modified": 1617261532201,
+			"created": 1617261501587,
+			"url": "http://localhost:3001/warmup-task",
+			"name": "Example 4",
+			"description": "Should return null to indicate the absence of values.",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "[]"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_f9943b90f8a04a369920be45d0eff2eb"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1616828313198.375,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e2b6e1d81e524d34a22c8beee84be691",
+			"parentId": "fld_38e29d29699d403d93eb61da27025799",
+			"modified": 1617282660658,
+			"created": 1615806039123,
+			"url": "http://localhost:3001/main-task/user",
+			"name": "Create user",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"userId\": \"49a48080-5578-4950-a405-b230d8c567d2\",\n\t\"login\": \"user3\",\n\t\"password\": \"password\"\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b14891b6c5a342a08758506086cc9516"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1000000050,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "fld_38e29d29699d403d93eb61da27025799",
+			"parentId": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"modified": 1617261558118,
+			"created": 1617261543530,
+			"name": "Main Task",
+			"description": "",
+			"environment": {},
+			"environmentPropertyOrder": null,
+			"metaSortKey": -1617260002117,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_51c29a7378e04e0d8961676eb976e623",
+			"parentId": "fld_38e29d29699d403d93eb61da27025799",
+			"modified": 1617282680713,
+			"created": 1615806087478,
+			"url": "http://localhost:3001/main-task/authenticate",
+			"name": "Get user's token",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"login\": \"user3\",\n\t\"password\": \"password\"\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b14891b6c5a342a08758506086cc9516"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1000000025,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f520f375b46343409aad4a76d8417894",
+			"parentId": "fld_38e29d29699d403d93eb61da27025799",
+			"modified": 1617282657260,
+			"created": 1616407805544,
+			"url": "http://localhost:3001/main-task/logout",
+			"name": "Log out",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b14891b6c5a342a08758506086cc9516"
+				},
+				{
+					"name": "",
+					"value": "",
+					"description": "",
+					"id": "pair_1f61cdbb1987409db123e3a05d97065c"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1000000000,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_86529feb2a1e49069463b964fb300e69",
+			"parentId": "fld_38e29d29699d403d93eb61da27025799",
+			"modified": 1617282652645,
+			"created": 1615804959358,
+			"url": "http://localhost:3001/main-task/blog-posts",
+			"name": "Create blog post",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"postId\": \"49a48080-5578-4950-a405-b230d8c567d2\",\n\t\"title\": \"title1\",\n\t\"content\": \"content1\",\n\t\"visibility\": \"public\"\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b14891b6c5a342a08758506086cc9516"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -999999950,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e92ec07645de42f78b48238ca6432252",
+			"parentId": "fld_38e29d29699d403d93eb61da27025799",
+			"modified": 1617282637882,
+			"created": 1617282514017,
+			"url": "http://localhost:3001/main-task/blog-posts",
+			"name": "Get blog posts",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b14891b6c5a342a08758506086cc9516"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -999999900,
+			"isPrivate": false,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingFollowRedirects": "global",
+			"_type": "request"
+		},
+		{
+			"_id": "env_1faeb321c9402beeaf5977ac06996deb862287b9",
+			"parentId": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"modified": 1617259980228,
+			"created": 1617259980228,
+			"name": "Base Environment",
+			"data": {},
+			"dataPropertyOrder": null,
+			"color": null,
+			"isPrivate": false,
+			"metaSortKey": 1617259980228,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_1faeb321c9402beeaf5977ac06996deb862287b9",
+			"parentId": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"modified": 1617259980237,
+			"created": 1617259980237,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "spc_53893dc667c14d24834ec1fba7051923",
+			"parentId": "wrk_ed420043b9184fbdb743ee14ecd854af",
+			"modified": 1617259979747,
+			"created": 1617259979747,
+			"fileName": "node-code-challenge",
+			"contents": "",
+			"contentType": "yaml",
+			"_type": "api_spec"
+		}
+	]
+}
